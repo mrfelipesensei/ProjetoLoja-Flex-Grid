@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Popeye Foods</title>
+    <link rel="stylesheet" href="food_style.css">
+</head>
+
+<body>
+    <h1>Popeye Foods</h1>
+
+    <img id="popeye" src="popeye_strong.png" alt="popeye com espinafre">
+
+    <p class="parag">Um rico e varidado cardápio de marmitas saudáveis para você escolher</p>
+
+    <h2>Confira</h2>
+
+    <table class="cardapio">
+        <thead>
+            <tr>
+                <th>Proteínas</th>
+                <th>Carboidratos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Omelete de Espinafre</td>
+                <td>Salada de Brócolis</td>
+            </tr>
+            <tr>
+                <td>Lombinho Assado</td>
+                <td>Abóbora Cozida</td>
+            </tr>
+            <tr>
+                <td>Almôndegas</td>
+                <td>Salada de Banana</td>
+            </tr>
+            <tr>
+                <td>Frango Grelhado</td>
+                <td>Salada de Tomate</td>
+            </tr>
+            <tr>
+                <td>Patinho Moído</td>
+                <td>Batata Doce Cozida</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+
+    <img id="food" src="food.jpg" alt="exemplo de marmita saudável">
+
+    <h2>Monte sua Dieta</h2>
+    
+    <div class="form">
+        <fieldset class="box">
+            <form action="thx.html" method="post">
+                
+                <div class="itens">
+                    <label for="proteina">Proteínas:</label>
+                    <select id="proteina" name="proteina">
+                        <option value="op1">Omelete de Espinafre</option>
+                        <option value="op2">Atum com Quinoa</option>
+                        <option value="op3">Lombinho Assado</option>
+                        <option value="op4">Carne com Legumes</option>
+                        <option value="op5">Almôndegas</option>
+                        <option value="op6">Frango Grelhado</option>
+                        <option value="op7">Bife à Role</option>
+                        <option value="op7">Patinho Moído</option>
+                    </select>
+                </div>
+    
+
+                <div>
+                    <p class="quant">Quantidade:</p>
+
+                    <input type="radio" name="qt">
+                    <label class="qt" for="qt10">10</label>
+                    
+                    <input type="radio" name="qt">
+                    <label class="qt" for="qt20">20</label>
+
+                    <input type="radio" name="qt">
+                    <label class="qt" for="qt30">30</label>
+                </div>
+                <br>
+
+                <div class="itens">
+                    <label for="carb">Carboidratos:</label>
+                    <select id="carb" name="carb">
+                        <option value="op1">Salada de Brócolis</option>
+                        <option value="op2">Abóbora Cozida</option>
+                        <option value="op3">Salada de Banana</option>
+                        <option value="op4">Aspargos</option>
+                        <option value="op5">Salada de Tomate</option>
+                        <option value="op6">Batata Doce Cozida</option>
+                        <option value="op7">Salada de Repolho</option>
+                        <option value="op7">Salada de Maçã</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p class="quant">Quantidade:</p>
+
+                    <input type="radio" name="qt2">
+                    <label class="qt" for="qt10">10</label>
+                    
+                    <input type="radio" name="qt2">
+                    <label class="qt" for="qt20">20</label>
+
+                    <input type="radio" name="qt2">
+                    <label class="qt" for="qt30">30</label>
+                </div>
+                <br>
+
+                <div>
+                    <label class="input" for="nome">Nome:</label>
+                    <input class="inputbox" type="text" name="nome" placeholder="Seu Nome" required> 
+                </div>
+                <br>
+                
+                <div>
+                    <label class="input" for="telefone">Telefone:</label>
+                <input class="inputbox" type="tel" name="telefone" placeholder="(DD) 99999-9999" required>
+                </div>
+                <br>
+    
+                <div>
+                    <label class="input" for="email">Email:</label>
+                <input class="inputbox" type="email" name="email" placeholder="seunome@email.com" required>
+                </div>
+
+                <div>
+                    <p id="qhora">Qual melhor horário para entrega?</p>
+                    <select id="hora" name="hora">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option> 
+                    </select>
+                </div>
+                <br>
+                
+                <input id="pecaja" type="submit" value="Peça Já!">
+                
+    
+            </form>
+        </fieldset>
+    </div>
+    <br>
+
+    <a href="home.html">
+        <input type="submit" value="Suplementos" class="botoes">
+    </a>
+
+    <a href="guia.html">
+        <input type="submit" value="Academias" class="botoes">
+    </a>
+    
+</body>
+<footer>
+    
+    <p class="rodape">O horário de entrega é de 9h às 21h</p>
+    
+    <p class="rodape">
+      Os direitos autorais das imagens contidas nesta página pertecem aos seus respectivos donos 
+    </p>
+    
+</footer>
+</html>

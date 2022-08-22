@@ -1,0 +1,113 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Impact';
+    font-weight: 400;
+    color: firebrick;
+    margin-bottom: 10px;
+}
+
+#popeye{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Impact';
+    color: firebrick;
+    background-color: black;
+
+}
+
+.parag{
+    margin-top: 20px;
+    font-weight:400;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 40px;
+    color: firebrick;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 65%;
+    padding: 10px;
+    border: 5px solid red;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.titulo{
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Impact';
+    font-size: 50px;
+    color: firebrick;
+}
+
+.insta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#guy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    border-radius: 30px;
+}
+
+.botoes{
+    width: 20%;
+    background: firebrick;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.botoes:hover{
+    background:red;
+    transform: scale(1.5);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#rodape{
+    text-align: center;
+    color: lightcoral;
+    font-size: 20px;  
+}
+
+body{
+    background-color: black;
+}
+
